@@ -38,17 +38,17 @@
   },
   "contact": {
     "title": "Contacto",
-    "subtitle": "Contáctanos para encargos o consultas",
+    "subtitle": "Contactanos para encargos o consultas",
     "email": "Correo Electrónico",
     "instagram": "Instagram",
     "commissions": {
       "title": "Solicitudes de Encargo",
-      "description": "¿Interesado en una pieza personalizada? Envíanos un correo con tus ideas, tamaño preferido, paleta de colores y plazo. Te responderemos en 2-3 días hábiles."
+      "description": "¿Interesado en una pieza personalizada? Envianos un correo con tus ideas, tamaño preferido, paleta de colores y plazo. Te respondemos en 2-3 días hábiles."
     }
   },
   "atelier": {
     "title": "EME Atelier",
-    "subtitle": "Explora nuestra colección de arte textil hecho a mano. Alfombras personalizadas, arte de pared y piezas únicas de tufting.",
+    "subtitle": "Explorá nuestra colección de arte textil hecho a mano. Alfombras personalizadas, arte de pared y piezas únicas de tufting.",
     "filter": {
       "all": "Todos"
     },
@@ -70,13 +70,13 @@
     },
     "cta": {
       "title": "¿Listo para Unirte?",
-      "description": "Reserva tu clase a través de nuestro sistema de reservas",
+      "description": "Reservá tu clase a través de nuestro sistema de reservas",
       "button": "Reservar Clase"
     },
     "contact": {
-      "title": "Ponte en Contacto",
-      "description": "¿Tienes preguntas sobre nuestras clases? Nos encantaría saber de ti.",
-      "button": "Contáctanos"
+      "title": "Contactanos",
+      "description": "¿Tenés preguntas sobre nuestras clases? Nos encantaría saber de vos.",
+      "button": "Contactanos"
     }
   }
 }
