@@ -18,9 +18,11 @@ export function Header() {
   ]
 
   const toggleLocale = () => {
+    // With localePrefix: 'never', we need to use cookies or query params
+    // For now, we'll store preference in localStorage and reload
     const newLocale = locale === 'es' ? 'en' : 'es'
-    const path = pathname.replace(`/${locale}`, `/${newLocale}`)
-    window.location.href = path
+    document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`
+    window.location.reload()
   }
 
   return (
