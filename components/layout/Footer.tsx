@@ -1,6 +1,7 @@
 "use client"
 
 import { useTranslations } from 'next-intl'
+import Link from 'next/link'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -24,24 +25,24 @@ export function Footer() {
             <h4 className="font-semibold mb-4">{t('navigation')}</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/" className="text-neutral-400 hover:text-white transition-colors">
+                <Link href="/" className="text-neutral-400 hover:text-white transition-colors">
                   {tNav('home')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/portfolio" className="text-neutral-400 hover:text-white transition-colors">
+                <Link href="/portfolio" className="text-neutral-400 hover:text-white transition-colors">
                   {tNav('portfolio')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-neutral-400 hover:text-white transition-colors">
+                <Link href="/about" className="text-neutral-400 hover:text-white transition-colors">
                   {tNav('about')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-neutral-400 hover:text-white transition-colors">
+                <Link href="/contact" className="text-neutral-400 hover:text-white transition-colors">
                   {tNav('contact')}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

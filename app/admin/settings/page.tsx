@@ -145,7 +145,7 @@ export default function SettingsPage() {
           <h3 className="font-semibold text-blue-900 mb-2">💡 About Google Analytics 4</h3>
           <p className="text-sm text-blue-800">
             To enable GA4 tracking, enter your Measurement ID above. You can find this in your Google Analytics property settings.
-            Leave empty if you don't want to use analytics.
+            Leave empty if you don&apos;t want to use analytics.
           </p>
         </div>
       </div>
