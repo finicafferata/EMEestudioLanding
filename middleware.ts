@@ -1,11 +1,9 @@
-import createMiddleware from 'next-intl/middleware';
-import { locales, defaultLocale } from './i18n/request';
+import { NextRequest, NextResponse } from 'next/server';
 
-export default createMiddleware({
-  locales,
-  defaultLocale,
-  localePrefix: 'never' // No locale in URL, always use default
-});
+export function middleware(request: NextRequest) {
+  // Simple passthrough - no i18n routing
+  return NextResponse.next();
+}
 
 export const config = {
   matcher: [
